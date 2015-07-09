@@ -20,7 +20,7 @@ html, body {
 .menu {
   /*background: #202024 url('http://orig14.deviantart.net/405b/f/2012/180/b/f/pattern_variation_by_absurdwordpreferred-d55auet.jpg') repeat left top;*/
   background-color: black;
-  left: -285px;  /* start off behind the scenes */
+  right: -255px;  /* start off behind the scenes */
   height: 100%;
   position: fixed;
   width: 285px;
@@ -36,8 +36,6 @@ html, body {
        -o-background-size: cover;
           background-size: cover;
 }
-
-
 
 .menu ul {
   border-top: 1px solid white;

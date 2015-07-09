@@ -1,23 +1,23 @@
 var main = function() {
   /* Push the body and the nav over by 285px over */
-  $('.icon-menu').click(function() {
-    $('.menu').animate({
-      left: "0px"
+  $('.menu').hover(function() {
+    $(this).animate({
+      right: "0px"
     }, 200);
 
     $('body').animate({
-      left: "285px"
+      right: "285px"
     }, 200);
   });
 
   /* Then push them back */
-  $('.icon-close').click(function() {
+  $('.menu').mouseleave(function() {
     $('.menu').animate({
-      left: "-285px"
+      right: "-255px"
     }, 200);
 
     $('body').animate({
-      left: "0px"
+      right: "0px"
     }, 200);
   });
 };
