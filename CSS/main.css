@@ -16,7 +16,7 @@ html, body {
 .menu {
   /*background: #202024 url('http://orig14.deviantart.net/405b/f/2012/180/b/f/pattern_variation_by_absurdwordpreferred-d55auet.jpg') repeat left top;*/
   background-color: #F26948;
-  right: -255px;  /* start off behind the scenes */
+  right: -245px;  /* start off behind the scenes */
   height: 100%;
   position: fixed;
   width: 285px;
@@ -46,6 +46,10 @@ html, body {
   height: auto;
 }
 
+#mainBurger:hover {
+ 
+}
+
 /* Basic styling */
 .jumbotron {
   background-color: #40B7D9; 
@@ -67,8 +71,12 @@ html, body {
   font-family: 'Open Sans', sans-serif;
   line-height: 45px;
   padding-bottom: 3px;
-  padding-left: 20px;
+  padding-left: 16px;
   padding-top: 3px;
+}
+
+.fa {
+  margin-right: 14px;
 }
 
 .menu a {

@@ -13,7 +13,7 @@ var main = function() {
   /* Then push them back */
   $('.menu').mouseleave(function() {
     $('.menu').animate({
-      right: "-255px"
+      right: "-245px"
     }, 200);
 
     $('body').animate({
@@ -22,7 +22,7 @@ var main = function() {
   });
 
 
-  
+  $('#mainBurger').hide().fadeIn(5000);
   
 
 };
