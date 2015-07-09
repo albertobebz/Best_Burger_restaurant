@@ -1,3 +1,103 @@
-body {
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/*html, body {
+  height: 100%;
+  margin: 0;
+}*/
+
+/* Initial body */
+html, body {
+  height: 100%;
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Initial menu */
+.menu {
+  /*background: #202024 url('http://orig14.deviantart.net/405b/f/2012/180/b/f/pattern_variation_by_absurdwordpreferred-d55auet.jpg') repeat left top;*/
   background-color: black;
+  left: -285px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+}
+
+/* Basic styling */
+
+.jumbotron {
+  background-image: url('https://static.pexels.com/photos/2324/skyline-buildings-new-york-skyscrapers.jpg'); 
+  min-height: 100%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+
+
+.menu ul {
+  border-top: 1px solid white;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid white;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: default;
+}
+
+.menu a:hover {
+  color: black;
+}
+
+.close {
+  width: 60px;
+  background-color: rgb(121, 191, 173);
+  margin-bottom: 9px;
+  margin-left: 1px;
+}
+
+.close:hover {
+  background-color: rgb(236, 214, 130);
+}
+
+.icon-close {
+  width: 59px;
+  cursor: crosshair;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.icon-menu {
+  width: 100px;
+  color: #fff;
+  cursor: crosshair;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-menu i {
+  margin-right: 5px;
 }
