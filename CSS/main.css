@@ -158,6 +158,10 @@ html, body {
   transition: 0.5s;
 }
 
+i {
+  margin-left: 10px;
+}
+
 .model-0 {
   position: absolute;
   -moz-transition: 0.5s;
@@ -165,7 +169,7 @@ html, body {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   left: 0;
-  top: 30%;
+  bottom: 0;
 }
 .model-0 li {
   float: none;
