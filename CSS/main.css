@@ -1,5 +1,7 @@
 *, *:before, *:after {
   box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
 /* Initial body */
@@ -14,7 +16,6 @@ html, body {
 
 /* Initial menu */
 .menu {
-  /*background: #202024 url('http://orig14.deviantart.net/405b/f/2012/180/b/f/pattern_variation_by_absurdwordpreferred-d55auet.jpg') repeat left top;*/
   background-color: #F26948;
   right: -245px;  /* start off behind the scenes */
   height: 100%;
@@ -44,6 +45,8 @@ html, body {
   max-height:95px;*/
   width: auto;
   height: auto;
+  display: block;
+  /*margin-top: 600px;*/
 }
 
 #mainBurger:hover {
@@ -124,4 +127,66 @@ html, body {
 
 .icon-menu i {
   margin-right: 5px;
+}
+
+/*======= SOCIAL NAV ======*/
+.social-nav {
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+  margin: 10px auto;
+}
+.social-nav li {
+  display: inline-block;
+}
+.social-nav a {
+  display: inline-block;
+  float: left;
+  width: 48px;
+  height: 48px;
+  font-size: 20px;
+  color: #FFF;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  line-height: 48px;
+  background: #000;
+  position: relative;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.model-0 {
+  position: absolute;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  left: 0;
+  top: 30%;
+}
+.model-0 li {
+  float: none;
+  display: block;
+}
+.model-0 a:hover {
+  padding-left: 20px;
+  width: 65px;
+}
+.model-0 .twitter {
+  background: #00ACED;
+}
+.model-0 .facebook {
+  background: #3B579D;
+}
+.model-0 .google-plus {
+  background: #DD4A3A;
+}
+.model-0 .linkedin {
+  background: #007BB6;
+}
+.model-0 .pinterest {
+  background: #CB2026;
 }

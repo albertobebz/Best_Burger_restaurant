@@ -21,9 +21,20 @@ var main = function() {
     }, 200);
   });
 
+  // $('#mainBurger').hide();
 
-  $('#mainBurger').hide().fadeIn(5000);
-  
+  // $('#mainBurger')
+  //  .animate({
+  //        bottom: 600
+  //     },
+  //     'slow'
+  //  );
+
+  // SCROLL FEAT FOR THE SOCIAL ICON
+  $(window).scroll(function(){
+    var navTop =  $(window).scrollTop();
+    $('.model-0').css("top", navTop + 50);
+  });
 
 };
 
