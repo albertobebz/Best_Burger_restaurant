@@ -12,7 +12,8 @@
     <!-- AWESOME FONT -->
     <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
     
-    <link href='CSS/main.css' rel='stylesheet'>
+    <link rel='stylesheet' href='CSS/main.css'>
+    <link rel="stylesheet" href="CSS/logo.css">
 
   </head>
   <body>
@@ -33,24 +34,28 @@
     <!-- Main body -->
     <div class="jumbotron">
 
-      <!-- LOGO -->
-      <a href="#"><p id="logoFont">Wild <br><span>Burger</span></p></a>
+      
 
       <!-- SOCIAL NAV FIXED ON THE LEFT SIDE --> 
       <ul class="social-nav model-0">
-        <li><a href="#" class="twitter"><i class="social fa fa-twitter"></i></a></li>
         <li><a href="#" class="facebook"> <i class="social fa fa-facebook"></i></a></li>
+        <li><a href="#" class="twitter"><i class="social fa fa-twitter"></i></a></li>
         <li><a href="#" class="google-plus"><i class="social fa fa-google-plus"></i></a></li>
         <li><a href="#" class="pinterest"><i class="social fa fa-pinterest"></i></a></li>
       </ul><br/>
 
-      <!-- Main image -->
-      <img id="mainBurger" src="assets/burger_1.png" alt="burger">
-    
+      <!-- MAIN LOGO -->
+      <img id="logo" src="assets/logo.png" alt="logo">
 
-    </div>
+      <!-- Main image -->
+      <div id="mainBurger">
+        <img src="assets/burger_1.png" alt="burger">  
+      </div>
+      
+    </div><!-- JUMBOTRON FINISH -->
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
     <script src="script/app.js"></script>
   </body>
 </html>

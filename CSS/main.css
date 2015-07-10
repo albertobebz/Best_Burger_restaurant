@@ -23,30 +23,20 @@ html, body {
   width: 285px;
 }
 
-/* Logo Style */
-#logoFont { 
-  position: relative;
-  font-family: 'Ranga', cursive;
-  font-size: 3em;
-  display: inline-block;
-  margin-left: 50px;
-  margin-top: 50px;
-  text-align: center;
-  line-height: 30px;
-  border-bottom: 4px solid black;
-  color: black;
-  -webkit-transform: rotate(-25deg);
+/* MAIN IMAGE HOME PAGE */
+#mainBurger {
+  margin: 0 auto;
+  width: 800px;
+  height: 500px;
+  z-index: 1000;
+  margin-top: 200px;
+  /*margin-top: 600px;*/
+  /*visibility: hidden;*/
 }
 
-#mainBurger {
-  display: block;
-  margin: 0 auto;
-  /*max-width:230px;
-  max-height:95px;*/
-  width: auto;
+#mainBurger img {
+  width:100%;
   height: auto;
-  display: block;
-  /*margin-top: 600px;*/
 }
 
 #mainBurger:hover {
@@ -58,9 +48,9 @@ html, body {
   background-color: #40B7D9; 
   min-height: 100%;
   -webkit-background-size: cover;
-     -moz-background-size: cover;
-       -o-background-size: cover;
-          background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .menu ul {
