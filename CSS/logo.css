@@ -1,14 +1,18 @@
 /* Logo Style */
-#logo { 
-  position: absolute;
-  /*position: relative;*/
-  display: block;
-  /*margin: 0 auto;*/
-  top: 100px;
-  margin-left: 450px;
-  width: 500px;
-  font-family: 'Ranga', cursive;
-  font-size: 3em;
-  color: black;
-  text-align: center;
+#logo {
+    position:relative;
+    height: 100%;
+    width:100%;
+    z-index: 1;
+}
+
+#logo img {
+    position:absolute;
+    width: 500px;
+    top:800px;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    z-index: 1;
 }

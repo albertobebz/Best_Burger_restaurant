@@ -26,10 +26,17 @@ var main = function() {
   
   // $("#mainBurger").animate({width: "800px"}, 'slow');
   
-
-
-
-
+  // SHOW LOGO WHEN HOVER ON HAMBURGER
+  $('#logo').hide();
+  // $('#mainBurger').hover(function(){
+  //   $('#logo').show().animate({
+  //     top: '-200px'
+  //   }, 300);
+  // });  
+  
+  $('#logo').show().animate({
+      top: '-200px'
+    }, 2000);
 
 };
 
